@@ -12,7 +12,7 @@ This repository contains snippets of code from the OpenAI Cookbook as well as ex
 
 1. Clone the repository
 ```bash
-git clone XXX
+git clone https://github.com/sammyahmedtech/Generative-AI-Hackathon-Toolkit.git
 ```
 
 2. Install the dependencies
@@ -33,7 +33,8 @@ load_dotenv()
 * Create a virtual environment and install the dependencies, in the command prompt run the following:
 ```bash
 python -m venv venv
-source venv/bin/activate
+./venv/Scripts/activate # On Windows
+source venv/bin/activate # On macOS and Linux
 pip install -r requirements.txt
 ```
 3. Run the quickstart.ipynb notebook in the root of the repository.
